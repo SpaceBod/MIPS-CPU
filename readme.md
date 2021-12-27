@@ -11,7 +11,7 @@ This CPU implements a subset of the MIPS IV ISA revision 3.2 and operates using 
 
 ## CPU Design
 
-![Diagram](docs/top-level-diagram.png)
+![Diagram](docs/top-level-diagram.jpg)
 
 As per the specification, the CPU uses the Intel Avalon memory mapping interface, allowing for a more accessible solution. We use a 32 bit, big endian system and there is no support for double word instructions or instructions involving floating point numbers.
 
